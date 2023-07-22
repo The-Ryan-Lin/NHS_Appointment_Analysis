@@ -8,3 +8,5 @@ AA2 Summary
 - Count of context types:  3
 - Count of national categories:  18
 - Count of appointment statuses:  3
+
+AA3: Analysing the data Summary (See Document)
