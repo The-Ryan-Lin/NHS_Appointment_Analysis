@@ -1,20 +1,18 @@
 # Ryan_Lin_DA201_Assignment
-Supporting files for the final assignment submission of LSE_DA201: Data Analytics using Python
+## NHS - Appointments in General Practice
 
-AA2 Summary  
-- No rows with Nan values in all three data sets
-- Count of locations:  106
-- Count of service settings: 5
-- Count of context types:  3
-- Count of national categories:  18
-- Count of appointment statuses:  3
+The goal of this project was to explore NHS appointment data within primary care and determine what can be done to reduce and eliminate missed appointments by investigating two main areas of capacity and resource utilisation in the NHS.
 
-AA3: Analysing the data Summary (See Document)
+## Four datasets were used in this analysis and can be found in the repository. The first three datasets contain primary care appointment data in the NHS and the last dataset is health-related tweets scraped from Twitter.  
+1. actual_duration.csv
+2. appointments_regional.csv
+3. national_categories.csv
+4. Tweets.csv
 
-AA4: Visualising and identifying initial trends
-1. **Aggregated Monthly**
-    1. Service Settings: General Practice by far the highest number of appointments. quite a steady increase from 08-2021 to 10-2021 but then started to decline. All others hover very low between 0 - 2 appointments. 
-    2. Context Types: Care Related Encounters by far the highest number of appointments. quite a steady increase from 08-2021 to 10-2021 but then started to decline in line with service settings. All others hover very low between 0 - 3 appointments. 
-    3. National Categories: Similar correlation/ trend over time with General Practice and Care Related Encounters with many National categories, particularly general consultation routine general consultation acute and Clinical Triage. 
-2. ****************************************Seasonal Variations:**************************************** 
-    1. Very similar trend in all seasons with the most values for General Practice. Number appointments are dependant on the day of the week. Very high number of appointment earlier in the week from Monday onwards which then decreases slightly towards the end of the working week (friday), then sharp decline on sat (but not 0) then 0 appointments on Sunday.
+## The working order of how this project was approached is shown below and corresponds to chapters seen in the Jupyter Notebook.
+1. Setting Up the GitHub Repository
+2. Importing and Exploring Data
+3. Analysing the Data: Initial Exploration
+4. Sentiment Analysis: NHS-related Twitter Data
+5. Visualising and Identifying Initial Trends
+6. Findings and Recommendations
