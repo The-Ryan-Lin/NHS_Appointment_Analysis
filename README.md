@@ -9,7 +9,7 @@ Four datasets were used in this analysis and can be found in the repository. The
 3. national_categories.csv
 4. Tweets.csv
 
-## The working order of how this project was approached is shown below and corresponds to chapters seen in the Jupyter Notebook.
+## The working order of how this project was approached is shown below and corresponds to chapters seen in the Jupyter Notebook
 1. Setting Up the GitHub Repository
 2. Importing and Exploring Data
 3. Analysing the Data: Initial Exploration
