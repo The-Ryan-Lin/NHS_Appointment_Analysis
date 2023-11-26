@@ -17,10 +17,18 @@ Four datasets were used in this analysis and can be found in the repository. The
   
 <h2>Findings and Recommendations - Final Stakeholder Presentation</h2> 
 
+<p align="center">
+  <img src="Figures/Slide1.jpeg" alt="Image Description" width="720" height="405">
+</p>
+
+
+
 ![Image](Figures/Slide1.jpeg)
 
 
 ![Image](Figures/Slide2.jpeg)
+
+It is estimated the each missed appointment costs the NHS an average £30 per person, which may not seem like a lot but adds up to over £290 millions wasted in just half a year from people not attending their appointments and It is estimated that in the second half of 2022 5% of all appointments were missed. 
 
 
 ![Image](Figures/Slide3.jpeg)
