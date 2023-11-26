@@ -21,17 +21,18 @@ Four datasets were used in this analysis and can be found in the repository. The
   <img src="Figures/Slide1.jpeg" alt="Image Description" width="720" height="405">
 </p>
 
-
+Welcome to this presentation on NHS Appointments in General Practice. 
 
 ![Image](Figures/Slide1.jpeg)
 
 
 ![Image](Figures/Slide2.jpeg)
 
-It is estimated the each missed appointment costs the NHS an average £30 per person, which may not seem like a lot but adds up to over £290 millions wasted in just half a year from people not attending their appointments and It is estimated that in the second half of 2022 5% of all appointments were missed. 
-
+It is estimated that each missed appointment costs the NHS an average of £30 per person, which may not seem like a lot but adds up to over £290 million wasted in just half a year from people not attending their appointments. Additionally, it is estimated that in the second half of 2022, approximately 5% of all appointments were missed, highlighting a critical area for improvement in healthcare management.
 
 ![Image](Figures/Slide3.jpeg)
+
+Our analysis aims to address the pressing issue of missed NHS appointments by exploring two key areas: the adequacy of staff and network capacity, and the actual utilisation of resources. This exploration is particularly relevant to NHS ICBs, who are directly impacted by these challenges. 
 
 ![Image](Figures/Slide4.jpeg)
 
