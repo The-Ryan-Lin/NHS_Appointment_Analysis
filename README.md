@@ -55,82 +55,66 @@ Moving onto our exploration of Twitter data, we were originally hoping that by i
 
 ![Image](Figures/Slide9.jpeg)
 
-When analyzing data over time, a bias towards higher values in each category was observed, highlighted in the table showing the proportion of values in each category. This is to be expected as the NHS primarily delivers care through General Practice appointments and direct patient care, providing a clearer picture of service delivery patterns.
+When analysing data over time, a bias towards higher values in each category was observed, highlighted in the table showing the proportion of values in each category. This is to be expected as the NHS primarily delivers care through General Practice appointments and direct patient care, providing a clearer picture of service delivery patterns.
 
 ![Image](Figures/Slide10.jpeg)
 
-This does mean that when investigating the different categories over time that the findings will be heavily affected by the count of the number of appointments for example here we can see the number of appointments per month for the time period between August 2021 and June 2022. 
-
+This means that when investigating the different categories over time the findings will be heavily affected by the count of the number of appointments for example here we can see the number of appointments per month for the time period between August 2021 and June 2022. 
 
 ![Image](Figures/Slide11.jpeg)
 
-And here is the number of appointments for each service settings over the same time period. 
+And here is the number of appointments for each service setting over the same time period. 
 
 
 ![Image](Figures/Slide12.jpeg)
 
-And then for Context Type. All of the highest values of each category follow a similar trend to the number of appointments where it increases from August onwards towards the end of the year and decreases after the new year and begins to platue out for the remaining months. 
+This graph shows the number of appointments for Context Types over the same time period. 
+
+All of the highest values of each category follow a similar trend to the number of appointments where it increases from August onwards towards the end of the year and decreases after the new year and begins then plateau out for the remaining months. 
 
 To mitigate this bias in the data, in some of the following figures, the change in the proportion of values is shown instead. 
 
-
-
 ![Image](Figures/Slide13.jpeg)
 
-When looking at the number of appointments for the full time period with the 5 busiest month shown in red. The large drop in the beginning of 2020 is due to the COVID pandemic. From march onwards there is ar apid increase in the number of appointments and in line with the first lockdown that begin in late March 2020, where the increase in appointments is most likely covid related.
+When looking at the number of appointments for the full-time period with the 5 busiest months shown in red. The large drop in the beginning of 2020 is due to the COVID-19 pandemic. From March onwards there is a rapid increase in the number of appointments in line with the first lockdown that began in late March 2020, where the increase in appointments is most likely covid related.
 
+It also becomes much more evident here that there is a general increase in the number of appointments building up towards the end of the year due to winter bugs, health conditions worsening with the cold, increased rates of flu, and more people attending to their health before the Christmas and New Years holiday [Sussex Health&Care  - Improving access to primary care this winter. (Nov, 2022)](https://www.sussex.ics.nhs.uk/improving-access-to-primary-care-this-winter/)
 
-It also becomes much more evident here that there is a general increase in the number of appointments building up towards the end of the year due to winter bugs, health conditions worsening with the cold, increased rates of flu, and more people attending to their health before the Christmas and New Years holiday. 
-
-
-
-![Image](Figures/Slide14.jpeg)
-
-If we look at the number of appointments per season, we can also see that there is a weekly cycle in the appointment numbers, where it peaks on Mondays and gradually declines towards Friday with few appointments taking place on sat and even less on Sunday but not 0. Plotting the seasonal variations also shows when the national holidays are as these days there is also a very low number of appointments taking place. 
-
-
+Seasonal analysis revealed a weekly cycle in appointment numbers, peaking on Mondays and tapering towards Fridays, with only a few appointments taking place on Saturdays and even fewer on Sundays (not zero). Plotting seasonal variations also shows how lower appointment numbers correlate with national holidays, offering insights into patient behaviour and appointment scheduling within the NHS.
 
 ![Image](Figures/Slide15.jpeg)
 
-we now dive deeper into changes relating to the number of appointments per month to get a better idea of capacity and utilisation of NHS appointments for different categories.
+we now dive deeper into changes relating to the number of appointments per month to get a better idea of the capacity and utilisation of NHS appointments for different categories.
 
-The average monthly utilisation (as a % of maximum) was calculated based on the stat provided that maximum number of appointments the NHS can handle a day is 1.2 million., This is when divided by 30 days month to determine daily utilisation capacity, we can see that in the final months of the year the capacity does reach quite a high level of around 80%. 
+The NHS revealed that the maximum number of appointments the NHS can handle a day is 1.2 million. This value was then used to calculate the average monthly utilisation as a percentage of the maximum capacity. This was then divided by 30 days per month to determine daily utilisation capacity. We can see that in the final months of the year, the capacity utilisation often reached around 80%. 
 
-However, this figure does not considerer the fact that on Saturdays and Sunday there are very few appointments that actually even take place.
-
+However, a limitation of this approach is that it does not consider the fact that on Saturdays and Sundays, there are very few appointments that actually even take place.
 
 ![Image](Figures/Slide16.jpeg)
 
-If we were to determine the capacity with a lower number of days say 24 days, from 6 days a week. There are many recent months when the NHS has gone over capacity for the number of appointments. 
-
-
+If we were to determine the capacity with a lower number of days say 24 days, from 6 days a week. There are many recent months when the NHS has gone over full capacity for the number of appointments. This highlights periods of high demand and the need for efficient resource allocation.
 
 ![Image](Figures/Slide17.jpeg)
 
-Changes in attendance follow a similar trend to the total number of appointments, with attendance increasing following Covid. There is also a trend seen in a decrease in the proportion of appointments attended from July to October each year which could be explained by people not attending as a result of summer holiday plans and missed appointments after the clocks move forward in spring for daylight saving.  
+Changes in attendance follow a similar trend to the total number of appointments, with attendance increasing following COVID-19. There is also a trend seen in the decrease in the proportion of appointments attended from July to October each year. This could be explained by people not attending as a result of summer holiday plans and missed appointments after the clocks move forward in spring for daylight saving [The Telegraph - Why British Summer Time has an unexpected impact on the NHS (March, 2018)](https://www.telegraph.co.uk/science/2018/03/23/british-summer-time-has-unexpected-impact-nhs1/).  
 
-It would therefor be recommended that more reminders are sent out to during these months
-
+It is recommended that more reminders are sent out to patients during these months. 
 
 ![Image](Figures/Slide18.jpeg)
 
-The stacked bar chart above shows the proportion of appointment modes over time. It indicates that before the pandemic face-to-face appointment generally accounted for 80% which then dropped to 50% until July. Although they have gradually increased since, it’s unlikely to return to pre-pandemic values due to the adoption of more telehealth and digital health options.
-
+The stacked bar chart above shows the proportion of appointment modes over time. It indicates that before the pandemic face-to-face appointments generally accounted for 80% which dropped to 50% until July. Although they have gradually increased since, it’s unlikely to return to pre-pandemic values due to the adoption of more telehealth and digital health options [NHS - Listening to digital health innovators report 2021  (Aug, 2021)](https://transform.england.nhs.uk/about-us/get-involved/listening-to-digital-health-innovators-report-2021/).
 
 ![Image](Figures/Slide19.jpeg)
 
-in terms of appointment mode, the figure indicates the highest share of attended appointments are telephone appointments by far with an attendance rate of 95%, followed by video/ online. It therefor would be advisable to utilise these appointment modes wherever possible, which I believe the NHS is already doing urging patients to come forward through NHS 111 hotline and NHS 111 online. 
-
-
-
+in terms of appointment mode, the figure indicates the highest share of attended appointments are by far telephone appointments with an attendance rate of 95%, followed by video/ online. Therefor, it would be advisable to utilise these appointment modes wherever possible, which I believe the NHS is already doing urging patients to come forward through NHS 111 hotline and NHS 111 online [NHS - Listening to digital health innovators report 2021  (Aug, 2021)](https://transform.england.nhs.uk/about-us/get-involved/listening-to-digital-health-innovators-report-2021/).
+ 
 ![Image](Figures/Slide20.jpeg)
 
-Interestingly, when looking at the share of Did not attend appointments, face-to-face had the highest share of missed appointments which seems to be increasing over time, This further highlights the need to utilise telehealth and digital health options where possible. 
-
+Interestingly, when looking at the share of Did Not Attend (DNA) appointments, face-to-face had the highest share of missed appointments which seems to be increasing over time, This further highlights the need to utilise telehealth and digital health options where possible. 
 
 ![Image](Figures/Slide21.jpeg)
 
-Trends in time between booking an appointment show a slight increase in the number of same day appointments, and a recent decrease in  2 – 7 days and 8 to 14 days from October 2021 onwards showing some success in the NHS’s attempt to cut non-urgent care wait times. 
+Trends in time between booking an appointment show a slight increase in the number of same-day appointments, and a recent decrease in  2 – 7 days and 8 to 14 days from October 2021 onwards showing some success in the NHS’s attempt to cut non-urgent care wait times [NHS - NHS cuts waiting times despite busy summer period (Aug, 2021)](https://www.england.nhs.uk/2021/08/nhs-cuts-waiting-times-despite-busy-summer-period/). 
 
 ![Image](Figures/Slide22.jpeg)
 
@@ -152,7 +136,7 @@ Variation in database management between the different sub ICBs need to be reduc
 
 Finally, To better understand reasons for missed appointments, new measurements categories like reason for missed appointment or whether a mail, text, telephone reminder was given could be implemented into sub ICB data management systems.  
 
-
+"Our recommendations include hiring more staff, sending more reminders during low attendance months, adopting telehealth and digital health solutions, and implementing more synchronized database management. Additionally, collecting data on reasons for missed appointments would provide deeper insights for future analysis."
 
 
 ## The working order of how this project was approached is shown below and corresponds to chapters seen in the Jupyter Notebook
