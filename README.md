@@ -17,9 +17,9 @@ Four datasets were used in this analysis and can be found in the repository. The
   
 <h2>Findings and Recommendations - Final Stakeholder Presentation</h2> 
 
-<p align="center">
-  <img src="Figures/Slide1.jpeg" alt="Image Description" width="720" height="405">
-</p>
+Below is the final stakeholder presentation for the NHS, encompassing a comprehensive analysis of appointment management challenges, capacity constraints, and innovative solutions. This presentation delves into key areas of concern, such as staffing shortages and resource utilisation, while offering strategic recommendations to improve overall efficiency and patient engagement in the healthcare system. Through data-driven insights and targeted action plans, we aim to support the NHS in enhancing its service delivery and addressing the critical issue of missed appointments.
+
+![Image](Figures/Slide1.jpeg)
 
 Welcome to this presentation on NHS Appointments in General Practice. 
 
@@ -64,7 +64,6 @@ This means that when investigating the different categories over time the findin
 ![Image](Figures/Slide11.jpeg)
 
 And here is the number of appointments for each service setting over the same time period. 
-
 
 ![Image](Figures/Slide12.jpeg)
 
@@ -118,26 +117,27 @@ Trends in time between booking an appointment show a slight increase in the numb
 
 ![Image](Figures/Slide22.jpeg)
 
-After the initial drop of appointments at the start of Covid, an increase in proportion of same day appointments is seen by around 20% which returned to pre pandemic level relatively quickly from 2020-04 to 2020-10. In the more recent months, the longer wait times of 22 – 28 days and 28+ days have been increasing. 
+After the initial drop in appointments at the start of COVID-19, an increase in the proportion of same-day appointments is seen by around 20% which returned to the pre-pandemic level relatively quickly from 2020-04 to 2020-10. In more recent months, the longer wait times of 22 – 28 days and 28+ days have been steadily increasing. 
 
-This is in line with what the NHS has been reporting that they have been able to improve the number same day appointments, but medium to long wait times have gotten worse as a result of chronic understaffing and a huge backlog from the Covid Pandemic. 
+This is in line with what the NHS has been reporting: they have been able to improve the number of same-day appointments, but medium to long wait times have gotten worse due to chronic understaffing and a huge backlog from the COVID-19 pandemic [NHS - NHS cuts waiting times despite busy summer period (Aug, 2021)](https://www.england.nhs.uk/2021/08/nhs-cuts-waiting-times-despite-busy-summer-period/). 
 
 ![Image](Figures/Slide23.jpeg)
 
-It is already well know the the NHS is severely understaffed, with capacity rates already pushing above 80% on some months, and over 100% when accounting for the low appointment numbers on weekends, it is essential that more staff are required. Recent data suggests that the NHS is already at if not over capacity delivering 14million appointments  in general practice in June of this year. 
+In light of the challenges faced by the NHS, particularly with staffing and capacity constraints, our analysis has led to several strategic recommendations.
 
-More reminders sent out before and during the months with the lowest attendance
+Firstly, it's crucial to address the staffing shortfall. With capacity rates often exceeding 80%, and sometimes even 100% when considering lower weekend appointments, the need for additional staff is evident. This is underscored by the fact that in June 2023 alone, the NHS delivered an overwhelming 14 million appointments in general practice.
 
-Also have Greater adoption of telehealth and other digital health options where possible, especially because its shown to have the highest attendance 
+To improve appointment attendance, we recommend increasing the frequency of reminders, particularly during months with historically low attendance rates. This approach could significantly reduce the number of missed appointments.
 
-In terms of recommendations for future analysis, there needs to be data gathered to properly and more accurately calculate capacity and resource utilization such as number of GPs and patients and the proportion of available appointments that are actually used. Measurements for demand are also needed such as the volume of people attempting to book appointments. 
+Moreover, there's a compelling case for broader adoption of telehealth and other digital health solutions. Our findings show these methods yield the highest attendance rates, offering a promising avenue to enhance patient engagement and reduce strain on physical facilities.
 
-Variation in database management between the different sub ICBs need to be reduced through synchronous guidelines that are already in place. 
+For future analyses, it's imperative to gather more comprehensive data. This includes detailed information on the number of GPs and patients, the proportion of utilised appointments, and metrics to gauge demand, such as the volume of appointment booking attempts. Such data will enable more accurate assessments of capacity and resource utilisation.
 
-Finally, To better understand reasons for missed appointments, new measurements categories like reason for missed appointment or whether a mail, text, telephone reminder was given could be implemented into sub ICB data management systems.  
+Addressing discrepancies in database management across various sub-ICBs is also essential. Implementing synchronised guidelines can streamline processes and improve data consistency.
 
-"Our recommendations include hiring more staff, sending more reminders during low attendance months, adopting telehealth and digital health solutions, and implementing more synchronized database management. Additionally, collecting data on reasons for missed appointments would provide deeper insights for future analysis."
+Lastly, to gain deeper insights into the reasons behind missed appointments, we suggest introducing new measurement categories. These could include the reasons for appointment non-attendance and whether reminders (via mail, text, or telephone) were issued. Integrating these into sub-ICB data management systems will provide valuable information to devise more effective strategies to tackle this issue.
 
+In conclusion, through these targeted recommendations, we aim to enhance the efficiency and effectiveness of the NHS in delivering essential healthcare services.
 
 ## The working order of how this project was approached is shown below and corresponds to chapters seen in the Jupyter Notebook
 1. Setting Up the GitHub Repository
