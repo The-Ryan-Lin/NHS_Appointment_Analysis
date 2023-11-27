@@ -33,38 +33,29 @@ Our analysis aims to address the pressing issue of missed NHS appointments by ex
 
 ![Image](Figures/Slide4.jpeg)
 
-Three datasets on appointment data and one of healthcare related tweets were used for this analysis, provided to us by the NHS. 
- 
-The analysis was completed in Python due to its versatility to conduct multiple analytical functions such as data cleaning, data wrangling, and creating high quality visualisations. As a team, we also utilised Github, a web-based platform that provides version control and collaborative features. This enabled us to better manage and track changes made to code and other project files making team collaboration more efficient. 
+Utilising three NHS-provided datasets on appointment data and a collection of healthcare-related tweets, we employed Python for its versatility in data processing and visualization. Collaboration was enhanced through the use of GitHub, a web-based platform that provides version control and collaborative features, ensuring efficient management and tracking of project developments
 
 ![Image](Figures/Slide5.jpeg)
 
-The approach taken is highlighted here where the data was first imported and sensed checked for duplicates and outliers to begin the initial stages of data exploration. 
+The approach taken is highlighted here where the data was first imported and sense checked for duplicates and outliers to begin the initial stages of data exploration. 
 
-The imported data was then analysed to try and find answers related to the business problem and gauge capacity and resource utilisation. Visualisations were then created to show trends in the data 
-
-and finally, any relevant findings and future recommendations are discussed. 
+The imported data was then analysed to try and find answers related to the business problem and gauge capacity and resource utilisation. Visualisations were then created to show trends in the data. Finally, any relevant findings and future recommendations are discussed. 
 
 ![Image](Figures/Slide6.jpeg)
 
-To first get a better idea of the data, the different categories that were explored are highlighted here showing the corresponding number of values within each category. For example, there were a total of 5 service settings consisting of GP, Primary care network, other, unmapped and extended access provision. 3 context types, 18 total national categories and 3 appointment statuses. We also found that the data provided encompasses a total of 106 sub ICB locations.  
-
+To first get a better idea of the data, the different categories that were explored are highlighted here showing the corresponding number of values within each category. For example, there were a total of 5 service settings consisting of GP, Primary care network, other, unmapped and extended access provision. 3 context types, 18 total national categories and 3 appointment statuses. We also found that the data provided encompasses a total of 106 sub-ICB locations, providing a clearer understanding of the data landscape within the NHS.
 
 ![Image](Figures/Slide7.jpeg)
 
-As we are investigating changes over, almost all the data was grouped by month. Here are example data tables between August 2021 and June of 2022 showing the number of appointments per month in descending order and the number of records per month in chronological order. The Average number of appointments per month recorded was found to be around 27 million and the average number of records a month at about 75 thousand. 
-
-
+As we are investigating changes over time, almost all the data was grouped by month. Here are example data tables between August 2021 and June 2022 showing the number of appointments per month in descending order and the number of records per month in chronological order. The Average number of appointments per month recorded was found to be around 27 million while the average number of records a month at approximately 75 thousand. This data was crucial in assessing the monthly capacity and utilisation of NHS appointments.
 
 ![Image](Figures/Slide8.jpeg)
 
-Moving onto our exploration of the twitter data, we were originally hoping that by identifying the top trending hashtags or identifying tweets that contained words such as “wait” or “missed” or  “Appointment” we would be able to attain more context and some valuable insights into first person accounts related to appointments. However this was not the case as seen by the table on the left containing tweets with the word wait which provide no relevant insights to the problem. Instead a Sentiment Analyst was conducted which provides a sentiment score between -1 (being negative) and 1 ( being positive) for each tweet which gave us an overall sentiment score of 0.25 indicating only a slight positive sentiment from the general public. 
-
-
+Moving onto our exploration of Twitter data, we were originally hoping that by identifying the top trending hashtags or identifying tweets that contained words such as “wait”, “missed” or  “Appointment” we would be able to attain greater context and insights into first-person accounts related to appointments. However, this was not the case as seen by the table on the left containing tweets with the word "wait" which provide no relevant insights into the problem. Instead, a sentiment analysis was conducted which provides a sentiment score between -1 (being negative) and 1 (being positive) for each tweet. This yielded an overall sentiment score of 0.25 indicating only a slightly positive public sentiment towards NHS services. 
 
 ![Image](Figures/Slide9.jpeg)
 
-When plotting the different categories over time, it became evident that the the data is heavily biased or weighted to the highest values within each category which is highlighted in the table showing the proportion of values in each category. This it however to be expected as the NHS primarily delivers care through General Practice appointments and direct patient care and that you would expect majority of appointments to be attended. 
+When analyzing data over time, a bias towards higher values in each category was observed, highlighted in the table showing the proportion of values in each category. This is to be expected as the NHS primarily delivers care through General Practice appointments and direct patient care, providing a clearer picture of service delivery patterns.
 
 ![Image](Figures/Slide10.jpeg)
 
