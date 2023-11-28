@@ -4,7 +4,7 @@
     Data Wrangling, Data Visualisation with Python (Plotlt, MatPlotLib, Seaborn), API calling, Web Scraping, Natural Language Processing, and Sentiment Analysis. 
  </p>
 
-Grade: __86% (Distinction)__
+Grade: __89% (Distinction)__
 
 <h2>Assignment Overview</h2> 
   <p>
