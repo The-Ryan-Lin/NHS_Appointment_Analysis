@@ -1,7 +1,7 @@
 <h1>NHS - Appointments in General Practice</h1>
   <h3> Topics Covered</h3>
   <p>
-    Data Wrangling, Data Visualisation with Python (Plotlt, MatPlotLib, Seaborn), API calling, Web Scraping, Natural Language Processing, and Sentiment Analysis. 
+    Data Wrangling, Data Visualisation with Python (Plotly, MatPlotLib, Seaborn), API calling, Web Scraping, Natural Language Processing, and Sentiment Analysis. 
  </p>
 
 Grade: __89% (Distinction)__
